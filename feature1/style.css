@@ -21,7 +21,7 @@ body{
 
 #card{
     border-radius: 10px;
-    height: 450px;
+    height:auto 450px;
     width: 320px;
     background-color: white;
     padding: 22px;
@@ -38,5 +38,33 @@ body{
 
 #card h1{
     font-size: 27px;
+    font-weight: 800;
     /* margin: 10px 0; */
 }
+
+#card h5{
+    font-size: 25px;
+    color: rgb(93, 103, 215);
+    margin-top:-11px;
+}
+
+#card p{
+    margin: 5px;
+}
+
+#btn-cont button{
+    font-size: 15px;
+    font-weight:bold;
+    padding: 5px 12px 5px 12px;
+    margin: 9px;
+    border-radius: 6px;
+    /* border: none; */
+    cursor: pointer;
+    background-color: rgb(6, 153, 167);
+    color: rgb(240, 249, 255);
+}
+
+#btn-cont #remove{
+    background-color: rgb(101, 100, 100);
+}
+
