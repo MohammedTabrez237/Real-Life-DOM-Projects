@@ -25,7 +25,7 @@ body{
     width: 320px;
     background-color: white;
     padding: 22px;
-    text-align: center;
+    text-align: center;   
 }
 
 #card img{
@@ -39,18 +39,20 @@ body{
 #card h1{
     font-size: 27px;
     font-weight: 800;
-    /* margin: 10px 0; */
+    margin: 10px 0;
 }
 
 #card h5{
     font-size: 25px;
-    color: rgb(93, 103, 215);
+    color: red;
     margin-top:-11px;
 }
 
 #card p{
     margin: 5px;
+    text-align:justify;
 }
+
 
 #btn-cont button{
     font-size: 15px;
@@ -62,6 +64,7 @@ body{
     cursor: pointer;
     background-color: rgb(6, 153, 167);
     color: rgb(240, 249, 255);
+    /* object-position: center; */
 }
 
 #btn-cont #remove{
